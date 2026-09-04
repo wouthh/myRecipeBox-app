@@ -14,6 +14,8 @@ Attention pour le contenu des recettes : il n'y a aucun contrôle en place pour 
 
 The following inherited instructions are retained for historical context and have not been validated.
 
+For local inspection, copy `.env.example` to `.env` and replace all three example values with project-specific, non-production client configuration. Create React App embeds these values into frontend output; this step does not verify or secure the backend.
+
 cd to the project folder and execute:
 
 `npm install`
